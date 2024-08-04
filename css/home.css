@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* HOME Only */
+html{background: #191919; background: repeating-linear-gradient(90deg,#191919,#191919 240px,#222 240px,#222 241px);}
+.home{color:#FFF9F0;}
+.home .body{height: calc(100vh - 157px);min-height:500px;align-items: center;}
+.home .body p{font-size: 16px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+a {color: #FFF9F0;}
+a:hover {color: #FFF9F0;}
+a.hover:hover, a.hover:focus{border-bottom:1px solid #FFF9F0;}
+
+/* header */
+nav ul li a{border: 2px solid var(--Color-5, #B5D767);background: rgba(245, 234, 218, 0.10);}
+
+/* Body 본문 */
+h2{font-size:24px;}
+h2.active{    
+  color: var(--Color-4, #FFF9F0);
+  -webkit-text-stroke-width: 4;
+  -webkit-text-stroke-color: #000;
+  /* font-family: "DNF Bit Bit v2"; */
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 96px */
+  text-transform: uppercase;
+
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+h2 span{color: #ECEC08;
+  display:block;
+  -webkit-text-stroke-width: 4;
+  -webkit-text-stroke-color: #000;
+  /* font-family: "DNF Bit Bit v2"; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 38.4px */
+  text-transform: uppercase;}
+
+.object01{position: absolute; bottom: 105px; right: 64px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+.object01 ul li{display: inline-block;position:relative;}
+.object01 ul li a>img{width:30px;height:22px;padding:8px;}
+.object01 ul li a .text{display:none;}
+.object01 ul li a:hover .text, .object01 ul li a:focus .text{display:flex;position:absolute;top:-40px;width:max-content;right:-33px;}
+.object01 ul li:nth-child(1) a:hover .text, .object01 ul li:nth-child(1) a:focus .text{right: -21px;}
+.object01 ul li a .text span{display:flex;padding:8px;border-top:1px solid #FFF9F0;border-bottom:1px solid #FFF9F0;line-height:1;}
+.object01 ul li a .text img{display:flex;width:5px;height:30px;} 
+
+.object01 ul li a:hover>img, .object01 ul li a:focus>img{position: relative;animation: bounce .6s ease infinite alternate;}
+

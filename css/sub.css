@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* SUB General */
+html{background: #FFF9F0; background: repeating-linear-gradient(90deg,#FFF9F0,#FFF9F0 240px,#FCF5E9 240px,#FCF5E9 241px);}
+.sub{color:#191919;}
+.sub .body{align-items: flex-start;}
+.sub header{margin-bottom:32px;}
+a {color: #191919;}
+a:hover {color: #191919;}
+a.hover:hover, a.hover:focus{border-bottom:1px solid #191919;}
+
+h2{font-size:56px;}
+
+/* header */
+nav ul li a{border: 2px solid var(--Color-5, #191919);background: rgba(245, 234, 218, 0.40);}
+nav ul li a.active{background-color:#191919;color:#FFF9F0;}
+
+/* ABOUT */
+.selfPromo{display: flex;flex-direction: column;align-items: flex-start;gap: 32px;align-self: stretch;}
+.selfPromo .promo{ display:flex;}
+.selfPromo h3{font-size:16px;}
+.promo .left{width:240px;}
+.promo .right{display: flex;flex-direction: column;align-items: flex-start;gap: 16px;flex: 1 0 0;}
+.promo .title{font-size:14px;}
+.promo .em{font-size:15px;border-bottom:1px solid #191919;}
+.promo ul li{margin-bottom:8px;position:relative;}
+.promo ul li::before{content:url("../images/Bullet01.svg");width:4px;height:4px;position:absolute;left: -12px;top: -2px;}
+
+/* WORK */
+.work .body{flex-direction: column;align-self: stretch;}
+.wProject {width:100%; overflow:scroll;-ms-overflow-style: none;}
+.wProject::-webkit-scrollbar {display: none;}
+.wProject .projects{display: flex;align-items: flex-start;gap: 16px;align-self: stretch;}
+.projects ul li{display: flex;flex-direction: column;align-items: flex-start;}
+.projects .tagName{display: flex;align-items: flex-start;}
+.projects .tagName span{padding: 5px 8px 4px 8px;border-top:1px solid #191919;}
+.projects .tagName img{width:5px; height:26px;}
+.projects .wTag{display: flex;width: min-content;flex-direction: column;align-items: flex-start;gap: 16px;align-self: stretch;}
+.projects .wImg{padding:56px;background: var(--Grayscale-900, #191919);}
+.projects a:hover .wImg, .projects a:focus .wImg{padding:56px 88px;transition: all 1s ease;}
+.projects .wImg img{height:106px;width:auto;}
+.projects .wTxt .text{align-self: stretch;}
+
+.contact .body{height: calc(100vh - 189px);min-height:500px;}
+.contact .profile{margin:0 auto;text-align:center;}
+.profile p{text-align: center;margin: 0 auto;width: 100%;}
+.profile .wTxt p{margin-bottom:16px;}
+.profile img{width:160px;height: 160px;}
+.contact .wLB{text-align:center;}
+.contact .wLB .lb{display:inline-block; float: none;}
