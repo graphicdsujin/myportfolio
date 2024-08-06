@@ -15,15 +15,18 @@ h2{font-size:56px;}
 nav ul li a{border: 2px solid var(--Color-5, #191919);background: rgba(245, 234, 218, 0.40);}
 nav ul li a.active{background-color:#191919;color:#FFF9F0;}
 
+.subMenu{position:sticky;}
+
 /* ABOUT */
 .selfPromo{display: flex;flex-direction: column;align-items: flex-start;gap: 32px;align-self: stretch;}
 .selfPromo .promo{ display:flex;}
 .selfPromo h3{font-size:16px;}
 .promo .left{width:240px;}
 .promo .right{display: flex;flex-direction: column;align-items: flex-start;gap: 16px;flex: 1 0 0;}
+.promo .right p{line-height:1.4em;}
 .promo .title{font-size:14px;}
 .promo .em{font-size:15px;border-bottom:1px solid #191919;}
-.promo ul li{margin-bottom:8px;position:relative;}
+.promo ul li{margin-bottom:8px;position:relative;line-height:1.2em;}
 .promo ul li::before{content:url("../images/Bullet01.svg");width:4px;height:4px;position:absolute;left: -12px;top: -2px;}
 
 /* WORK */
@@ -41,6 +44,13 @@ nav ul li a.active{background-color:#191919;color:#FFF9F0;}
 .projects .wImg img{height:106px;width:auto;}
 .projects .wTxt .text{align-self: stretch;}
 
+.thumbnail .left p{margin-bottom:16px;line-height:1.4em;}
+
+.content{display:block;}
+.content .sidebar{display:block;float:left;width:240px;position: sticky;top:40px;}
+.content .right{display:block;float:left;width: 1088px;position: sticky;top: 20px;}
+  
+/* contact */
 .contact .body{height: calc(100vh - 189px);min-height:500px;}
 .contact .profile{margin:0 auto;text-align:center;}
 .profile p{text-align: center;margin: 0 auto;width: 100%;}
@@ -48,3 +58,7 @@ nav ul li a.active{background-color:#191919;color:#FFF9F0;}
 .profile img{width:160px;height: 160px;}
 .contact .wLB{text-align:center;}
 .contact .wLB .lb{display:inline-block; float: none;}
+
+
+  
+ 

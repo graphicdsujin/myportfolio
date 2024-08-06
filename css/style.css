@@ -37,6 +37,9 @@ body::-webkit-scrollbar { display:none; }
 .txt-invaders{font-family: "invaders";}
 .scrollLock { overflow: hidden; }
 .txt-r{color: #F32740;}
+.lineh160{line-height:1.6em;}
+.lineh140{line-height:1.4em;}
+.lineh120{line-height:1.2em;}
 /* a:hover default */
 a.hover:hover, a.hover:focus{line-height:1;/*animation: fadein .8s ease;*/transition: all 1s ease;}
 
@@ -47,11 +50,20 @@ a.hover:hover, a.hover:focus{line-height:1;/*animation: fadein .8s ease;*/transi
 .lb.white{background-color: #FEFFF1;}
 .lb.orange{background-color: #FFE08F;}
 
+/* UL */
+.wList li{margin-bottom:8px;}
+.wList li p{ display: flex;align-items: center;gap: 8px;}
+/* with icon */
+.wList.wIco li .img img{width:18px;height:18px;}
+.wList.wIco li a:hover .text, .wList.wIco li a:focus .text{border-bottom:1px solid #191919;}
+
+
 /* header */
 header{display:flex;justify-content: space-between;align-self: stretch;}
-header h1{width: 60px; height:60px; display: flex;}
+header h1{height:54px;width:60px; display: flex;}
 header h1 a{position: relative; top: 2px; animation: bounce .8s ease infinite alternate;}
 /* header h1 a:hover{animation: ease;} */
+header h1 a img{width:auto;height:100%;}
 header ul{display: flex;gap:8px;}
 header ul li{display: flex;align-items: center;}
 

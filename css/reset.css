@@ -28,10 +28,11 @@ body, input, textarea, select, button, table {font-family: 'pixel', 'BPdotsSquar
     /*font-weight: 700;*/
     font-style: normal;
 /*body, input, textarea, select, button, table {font-family:'dbdots', 'Iropke Batang' 'GyeonggiTitleM', AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;*/ color: #191919; font-size: 12px; line-height: 1; letter-spacing: -0.025em;}
-p{line-height:1.4;}
+p{line-height:1;vertical-align:middle;}
 
 /* 폰트 스타일 초기화 */
 em,address {font-style: normal;}
+span{line-height:1;vertical-align:middle;}
 
 /* 블릿기호 초기화 */
 ul,li,ol {list-style:none;}
@@ -45,6 +46,9 @@ img,fieldset {border:0 none;}
 /* 버튼 초기화 */
 button {border: 0;}
 
+/* 이미지 초기화 */
+img{vertical-align:top;}
+
 /* 반응형 */
 video,img {width: 100%;}
 
@@ -52,6 +56,8 @@ video,img {width: 100%;}
 /* .clearfix{*zoom:1;} */
 .clearfix:before, .clearfix:after {display: block; content: ''; line-height: 0;}
 .clearfix:after {clear: both;}
+/* .clearfix::before, .clearfix::after {content: ''}
+.clearfix::after {clear: both;display: block} */
 
 /* IR 효과 */
 .ir_pm {display:block; overflow:hidden; font-size:0; line-height:0; text-indent:-9999px;}

@@ -46,7 +46,9 @@ h2 span{color: #ECEC08;
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 38.4px */
-  text-transform: uppercase;}
+  text-transform: uppercase;
+  margin-bottom:24px;
+}
 
 .object01{position: absolute; bottom: 105px; right: 64px;
   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
