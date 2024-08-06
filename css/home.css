@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* HOME Only */
-html{background: #191919; background: repeating-linear-gradient(90deg,#191919,#191919 240px,#222 240px,#222 241px);}
+html{background: #191919; background: repeating-linear-gradient(90deg,#191919,#191919 240px,#222 240px,#222 241px);cursor: url('../images/Cursor_Hom.png'), auto; }
 .home{color:#FFF9F0;}
 .home .body{height: calc(100vh - 157px);min-height:500px;align-items: center;}
 .home .body p{font-size: 16px;
