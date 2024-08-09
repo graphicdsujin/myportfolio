@@ -4,7 +4,7 @@
 html{background: #FFF9F0; background: repeating-linear-gradient(90deg,#FFF9F0,#FFF9F0 240px,#FCF5E9 240px,#FCF5E9 241px);cursor: url('../images/Cursor_Sub.png'), auto;}
 .sub{color:#191919;}
 .sub .body{align-items: flex-start;}
-.sub header{margin-bottom:32px;}
+.sub header{margin-bottom:48px;}
 a {color: #191919;}
 a:hover {color: #191919;}
 a.hover:hover, a.hover:focus{border-bottom:1px solid #191919;}
