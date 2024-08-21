@@ -1,0 +1,9 @@
+.bg_dotted{-webkit-font-smoothing: antialiased; font-size: 16px;
+    background: #fefff1;  
+    background: linear-gradient(90deg, #fefff1 21px, transparent 1%) center, linear-gradient(#fefff1 21px, transparent 1%) center, #a799cc;
+    background-size: 22px 22px;}
+
+.bg_line{background: repeating-linear-gradient(90deg, #191919, #191919 240px, #2a2a2a 240px, #2a2a2a 241px);}
+
+.W_TxtBorder{display:flex;justify-content: center;align-items: center;}
+.txt_border{-webkit-text-stroke: 1px #191919;color:rgba(0, 0, 0, 0);font-weight: 700; font-size:56px;font-family:'Pretendard'}

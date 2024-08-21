@@ -21,7 +21,7 @@ body::-webkit-scrollbar { display:none; }
 
 .body{display:flex;gap:48px;}
 
-.grid{width:1360px; margin:40px;}
+.grid{width: 1360px;margin: 40px auto;}
 
 .wGrid{display: block;overflow:hidden;}
 .grid-2{display: block;width:240px;float:left;}
