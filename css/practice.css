@@ -7,3 +7,8 @@
 
 .W_TxtBorder{display:flex;justify-content: center;align-items: center;}
 .txt_border{-webkit-text-stroke: 1px #191919;color:rgba(0, 0, 0, 0);font-weight: 700; font-size:56px;font-family:'Pretendard'}
+
+.slider01{display:flex;gap:8px;align-items: stretch;}
+.photo_wrap{flex-shrink: 0;width: 82%;overflow:hidden;}
+.photo_wrap img{width:auto;height:100%;}
+.photo_wrap02{display:flex;flex-grow:1;flex-direction: column}

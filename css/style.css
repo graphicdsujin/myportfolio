@@ -48,6 +48,7 @@ a.hover:hover, a.hover:focus{line-height:1;/*animation: fadein .8s ease;*/transi
 .lb.pink{background-color: #FFC9F6;}
 .lb.white{background-color: #FEFFF1;}
 .lb.orange{background-color: #FFE08F;}
+.lb.blue{background-color: #c3fff6;}
 
 /* UL */
 .wList li{margin-bottom:8px;}

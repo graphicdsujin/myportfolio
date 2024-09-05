@@ -64,6 +64,6 @@ h2 span{color: #ECEC08;
 .object01 ul li:nth-child(1) a:hover .text, .object01 ul li:nth-child(1) a:focus .text{right: -21px;}
 .object01 ul li a .text span{display:flex;padding:8px;border-top:1px solid #FFF9F0;border-bottom:1px solid #FFF9F0;line-height:1;}
 .object01 ul li a .text img{display:flex;width:5px;height:30px;} 
-
-.object01 ul li a:hover>img, .object01 ul li a:focus>img{position: relative;animation: bounce .6s ease infinite alternate;}
+.object01 ul li a>img{position:relative;top:0;}
+.object01 ul li a:hover>img, .object01 ul li a:focus>img{animation: bounce .6s ease infinite alternate;}
 
