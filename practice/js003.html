@@ -59,14 +59,20 @@
         <section class="body mb32">
             <p class="comment">
                 <!-- here to add comment-->
-                슬라이더 손수 만들기 귀찮으므로 owl carousel 을 쓰는게 낫다...
+                슬라이더 손수 만들기 귀찮으므로 owl carousel 을 쓰는게 낫다... <br> <br>
 
-                헤더에 CDN 집어넣어야만...
+                헤더에 CDN 집어넣어야만... <br> <br>
+
+                https://blog.naver.com/nsoft21/221559608814 <br><br>
+
+                https://stickode.tistory.com/878 <br><br>
+
+                https://codepen.io/KIMJS/pen/MWYddrq
 
             </p>
             <div class="output">
                 <!-- here to add -->
-                <div class="js003">
+                <div class="js003 slider-1">
                     
                     <div class="owl-carousel owl-theme">
                         <!-- 이미지의 위치에 맞게 src 경로 설정. 여기서는 index.html과 image1,2,3이 같은 폴더 내에 같은 위계에 위치     -->
@@ -107,6 +113,28 @@
           });           
         });
         
+        $('.slider-1 > .owl-carousel').owlCarousel({
+    autoplay:true, // 오토 플레이
+    autoplayTimeout:6000, // 오토 플레이 시에 다음 슬라이드로 넘어가는 주기, 2초
+    loop:true,
+    margin:0,
+    nav:true,
+    navText:['<img src="http://www.inavi.com/Content2/Images/main/icon-prev.png">', '<img src="http://www.inavi.com/Content2/Images/main/icon-next.png">'],
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+});
+
+var $firstDot = $('.slider-1 > .owl-carousel > .owl-dots > .owl-dot.active');
+
+$firstDot.removeClass('active');
+
+setTimeout(function() {
+    $firstDot.addClass('active');
+}, 100);
+
 //   $(document).ready(function() {
 //     var autoplayTimeout = 6000;
 //     var $main_owl = $('.main-carousel').owlCarousel({
