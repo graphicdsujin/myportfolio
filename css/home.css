@@ -11,6 +11,17 @@ html{background: #191919; background: repeating-linear-gradient(90deg,#191919,#1
          -o-animation: fadein 3s; /* Opera < 12.1 */
             animation: fadein 3s;
 }
+.background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover; /* 화면 비율 유지하면서 꽉 채우기 */
+  transform: translate(-50%, -50%);
+  z-index: -1; /* 뒤로 */
+}
+
 a {color: #FFF9F0;}
 a:hover {color: #FFF9F0;}
 a.hover:hover, a.hover:focus{border-bottom:1px solid #FFF9F0;}
